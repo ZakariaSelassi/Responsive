@@ -11,17 +11,41 @@ body {
 @media only screen and (min-width:300px) and (max-width:768px) {
     body {
         background: green;
+        font-size: 50px;
+        color: white;
+    }
+    .small {
+        display: none;
+    }
+    .larg {
+        display: none;
     }
 }
 
 @media only screen and (min-width:768px) {
     body {
         background: blue;
+        font-size: 50px;
+        color: white;
+    }
+    .small {
+        display: none;
+    }
+    .medium {
+        display: none;
     }
 }
 
 @media only screen and (max-width:300px) {
     body {
         background: red;
+        font-size: 50px;
+        color: white;
+    }
+    .larg {
+        display: none;
+    }
+    .medium {
+        display: none;
     }
 }
