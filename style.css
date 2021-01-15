@@ -14,11 +14,14 @@ body {
         font-size: 30px;
         color: white;
     }
+    .medium {
+        width: 33%;
+    }
     .small {
-        display: none;
+        width: 66%;
     }
     .larg {
-        display: none;
+        width: 100%;
     }
 }
 
@@ -27,12 +30,7 @@ body {
         background: blue;
         font-size: 25px;
         color: white;
-    }
-    .small {
-        display: none;
-    }
-    .medium {
-        display: none;
+        display: flex;
     }
 }
 
@@ -41,11 +39,6 @@ body {
         background: red;
         font-size: 25px;
         color: white;
-    }
-    .larg {
-        display: none;
-    }
-    .medium {
-        display: none;
+        display: inline;
     }
 }
